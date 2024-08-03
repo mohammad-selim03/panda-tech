@@ -1,6 +1,7 @@
 import React from "react";
 import TopHeader from "./Header/TopHeader";
 import MiddleHeader from "./Header/MiddleHeader";
+import BottomHeader from "./Header/BottomHeader";
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
       {/* Middle Header */}
       <MiddleHeader />
       {/* Bottom Header */}
+      <BottomHeader />
     </div>
   );
 };

@@ -11,9 +11,9 @@ const MiddleHeader = () => {
   return (
     <div className="max-w-screen-2xl mx-auto grid grid-cols-3  h-[100px]  p-1 border-b-2">
         {/* left side */}
-      <div className="flex items-center h-[80px] ">
-        <Image src={logo} alt="logo" className="w-32" />
-        <h2 className="text-3xl font-bold mt-2 -ml-5">Panda Tech.</h2>
+      <div className="flex items-center justify-center h-[80px] ">
+        <Image src={logo} alt="logo" className="w-10" />
+        <h2 className="text-3xl font-bold ml-3">Shofy.</h2>
       </div>
       {/* Middle part */}
       <div className="border-2 border-[#0989FF] py-5 h-[50px] flex items-center mt-5 w-[500px]">
@@ -21,9 +21,8 @@ const MiddleHeader = () => {
           <input
             type="text"
             placeholder="Search for Products..."
-            className="h-[35px] mt-[6px] px-5  border-r-2 border-gray-300 placeholder:ml-3 w-[120px]] placeholder:text-sm "
+            className="h-[35px] mt-[6px] px-5  border-r-2 outline-none border-gray-300 placeholder:ml-3 w-[120px]] placeholder:text-sm "
           />
-           {/* <PiLineVerticalThin size={55}/> */}
           <p className="flex items-center justify-center w-full">
             <span className="flex items-center justify-center text-sm font-semibold w-full mx-auto">
              <span className="ml-3"> Select Category</span>
